@@ -60,3 +60,16 @@ def reduce_to_all_true(array)
   end
   return bool
 end
+
+def reduce_to_any_true(array)
+  index = 0
+  bool = true
+  while index < array.length do
+    if array[index] != true
+      bool = false
+      return false
+    end
+    index += 1
+  end
+  return bool
+end
