@@ -49,5 +49,14 @@ def reduce_to_total(array, total = 0)
 end
 
 def reduce_to_all_true(array)
-
+  index = 0
+  bool = true
+  while index < array.length do
+    if array[index] != true
+      bool = false
+      return false  
+    end
+    index += 1    
+  end
+  bool
 end
