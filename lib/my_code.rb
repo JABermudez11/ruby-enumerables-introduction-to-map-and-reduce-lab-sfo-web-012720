@@ -37,3 +37,7 @@ def map_to_square(array)
   end
   result
 end
+
+def reduce_to_total(array)
+  
+end
