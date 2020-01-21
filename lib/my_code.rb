@@ -17,3 +17,13 @@ def map_to_no_change(array)
   end
   result
 end
+
+def map_to_double(array)
+  result = []
+  index = 0
+  while index < array.length do
+    result.push(2 * array[index])
+    index += 1
+  end
+  result
+end
