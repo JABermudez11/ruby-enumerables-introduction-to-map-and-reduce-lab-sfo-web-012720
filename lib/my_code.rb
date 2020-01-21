@@ -56,7 +56,7 @@ def reduce_to_all_true(array)
       bool = false
       return false
     end
-    index += 1    
+    index += 1
   end
-  bool
+  return bool
 end
