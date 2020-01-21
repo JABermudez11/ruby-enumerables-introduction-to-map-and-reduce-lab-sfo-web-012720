@@ -52,7 +52,7 @@ def reduce_to_all_true(array)
   index = 0
   bool = true
   while index < array.length do
-    if array[index] != true
+    if array[index] == false
       bool = false
       return bool
     end
